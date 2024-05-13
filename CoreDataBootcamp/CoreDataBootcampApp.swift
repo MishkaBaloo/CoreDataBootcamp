@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct CoreDataBootcampApp: App {
-    let persistenceController = PersistenceController.shared
+    let persistenceController = PersistenceController.shared // Singleton
 
     var body: some Scene {
         WindowGroup {
